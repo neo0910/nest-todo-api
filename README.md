@@ -8,7 +8,7 @@ To start application:
 sudo docker-compose up -d --build
 ```
 
-To stop application:
+To stop postgres container:
 
 ```bash
 sudo docker-compose down -v --rmi all --remove-orphans
