@@ -2,7 +2,7 @@
 
 Install [docker and docker-compose](https://docs.docker.com/compose/install/)
 
-To start application:
+### To start application:
 
 ```bash
 # start postgres service
@@ -12,10 +12,18 @@ sudo docker-compose up -d --build
 yarn start:dev
 ```
 
-To stop postgres container:
+###### Application runs here: [localhost:3003](http://localhost:3003)
+
+### To generate docs:
+
+```bash
+yarn compodoc
+```
+
+###### Server with docs runs here: [localhost:8080](http://localhost:8080)
+
+### To stop postgres container:
 
 ```bash
 sudo docker-compose down -v --rmi all --remove-orphans
 ```
-
-[localhost:3003](http://localhost:3003)
