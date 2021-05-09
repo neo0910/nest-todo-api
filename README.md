@@ -11,7 +11,7 @@ sudo docker-compose up -d --build
 To stop application:
 
 ```bash
-sudo docker-compose down --rmi all --remove-orphans
+sudo docker-compose down -v --rmi all --remove-orphans
 ```
 
 [localhost:5001](http://localhost:5001)

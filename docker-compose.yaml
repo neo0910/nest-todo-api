@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+    db:
+        container_name: db
+        environment:
+            PG_DATA: /var/lib/postgresql/data
+            POSTGRES_USER: dbuser
+            POSTGRES_PASSWORD: dbpass
+            POSTGRES_DB: nest-todo-api
+        image: postgres
+        ports:
+            - 54322:5432
+        restart: always
+        volumes:
+            - dbdata:/var/lib/postgresql/data
+
+volumes:
+    dbdata:
