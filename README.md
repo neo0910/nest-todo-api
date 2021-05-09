@@ -5,9 +5,10 @@ Install [docker and docker-compose](https://docs.docker.com/compose/install/)
 To start application:
 
 ```bash
-// start postgres service
+# start postgres service
 sudo docker-compose up -d --build
-// start nest.js app
+
+# start nest.js app
 yarn start:dev
 ```
 
