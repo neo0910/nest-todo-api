@@ -14,4 +14,4 @@ To stop postgres container:
 sudo docker-compose down -v --rmi all --remove-orphans
 ```
 
-[localhost:5001](http://localhost:5001)
+[localhost:3003](http://localhost:3003)
